@@ -796,6 +796,14 @@ section {
     transform: scale(1.1);
 }
 
+[data-theme="dark"] .project-content h3 {
+    color: #ffffff !important; /* or any light color of your choice */
+}
+
+[data-theme="dark"] .project-content p {
+    color: #b3b3b3 !important; /* lighter grey for better readability */
+}
+
 .project-content {
     padding: 1.5rem;
 }
